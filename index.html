@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- start bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- end bootstrap -->
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/5ee41d4291.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!-- imported style sheet per assignment -->
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <title>Kieran Milligan | Software Engineer</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#about" rel="noopener noreferrer">About</a>
+      <a href="#projects" rel="noopener noreferrer">Projects</a>
+      <a href="#contact" rel="noopener noreferrer">Contact</a>
+      <a href="#resume" rel="noopener noreferrer">Resume</a>
+
+      <span id="social-links">
+        <a href="https://www.linkedin.com/in/kieran-milligan/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x social-squares-spinner" :style="spinnerStyle"></i></a>
+        <a href="https://github.com/Kieran815" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square fa-2x social-squares-spinner"></i></a>
+      </span>
+      <div class="scaling-squares-spinner" :style="spinnerStyle">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </nav>
+    <h1>Kieran Milligan | Software Engineer</h1>
+    <img id="avatar" src="avatar.jpg" alt="Kieran Milligan - Photo" />
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Kieran Milligan</h2>
+      <p>Creative web developer dedicated to building and optimizing the performance of user-centric, high-impact websites for nationwide, F500 and global companies. Leverage technical, analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>I am some project data</p>
+      <p>I am some project data</p>
+      <p>I am some project data</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Have an idea for an app? Need a developer?</p>
+      <a href="tel:+7086296259">(708) 629-6259</a><br>
+      <a href="mailto: kieran.milligan@gmail.com">kieran.milligan@gmail.com</a><br/>
+      <p>Based in <a href="https://www.google.com/maps/d/viewer?gl=US&ptab=2&ie=UTF8&oe=UTF8&msa=0&mid=1v1wu7LE27SEsI-2YWoZbIsVURqQ&ll=41.83401317282514%2C-87.73196394999998&z=11">Chicago, IL</a></p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>View my qualifications:</p>
+      <button><a href="https://drive.google.com/file/d/1dMOKzJQLo4eGZmBQE9VQQYURwEdtj9Qp/view" target="_blank" rel="noopener noreferrer">Download My Resume from Google Drive</a></button>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; <script>document.write( new Date().getFullYear() );</script>
+     <a href="https://www.kmilligan.info" target="_blank" rel="noopener noreferrer">K. Milligan</a></p>
+  </footer>
+  <!-- canvas as last element before closing body tag -->
+  <canvas class="background"></canvas>
+  <!-- particles script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</body>
+</html>
